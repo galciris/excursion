@@ -31,7 +31,7 @@ a {
 /* First Section */
 
 #first-section {
-    display: inline-block;
+    display: block;
     justify-content: center;
     margin: auto;
 }
@@ -52,7 +52,7 @@ a {
 /* Second Section */
 
 #second-section {
-    display: inline-block;
+    display: block;
     justify-content: center;
     margin: auto;
 }
@@ -69,7 +69,6 @@ a {
 }
 
 #second-section .image-container {
-    flex: 1;
     margin: auto;
     justify-content: center;
     padding-top: 40px;
@@ -79,7 +78,6 @@ a {
 /* Coming Soon Section */
 
 #coming-section {
-
     justify-content: center;
     margin: auto;
     padding-top: 40px;
@@ -91,6 +89,7 @@ a {
     display: block;
     margin: auto;
     padding-top: 40px;
+    padding-right: 40px;
 }
 
 .copyright-info span {
